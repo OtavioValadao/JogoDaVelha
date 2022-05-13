@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+body{
+    background-color: rgb(144, 242, 255);
+    text-align: center;
+    font-family: 'Macondo', cursive;
+    font-size: 1.3em;
+}
+
+input{
+    background-color: rgb(255, 255, 255);
+    font-size: 6vw;
+    width: 12vw;
+    height: 12vw;
+    margin: 0;
+    border-radius: 5px;
+    color:rgb(0, 0, 0);
+    margin-bottom: 10px;
+    font-family: 'Macondo', cursive;
+}
+
+#jogador{
+    display: inline;
+}
+
+#reiniciar{
+    
+    font-size: 1em;
+    color: white;
+    background-color: rgb(73, 176, 245);
+}
+#reiniciar {
+    margin-top: 2%;   
+    width: 12vw;
+    height: 7vw;
+    border-color: black;
+    color: #fff;
+    background-image: -webkit-linear-gradient(45deg, #005870 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #063a84 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+  }
+ #reiniciar:hover {
+    background-position: 0;
+  }
